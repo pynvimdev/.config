@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo apt update 
 sudo apt upgrade
-sudo apt install build-essential clangd stow lldb git htop tmux ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip curl doxygen
+sudo apt install build-essential fzf clangd stow lldb git htop tmux ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip curl doxygen
 ################################
 # Brew 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
