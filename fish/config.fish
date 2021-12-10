@@ -5,9 +5,6 @@ end
 
 # alias ls='exa '
 # alias ll='exa --icons --all'
-#echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/testing/.profile
-echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/testing/.profile
-eval "(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 alias et='exa -l --icons -T'
 alias e='exa -l --icons'
 alias p='python3'
