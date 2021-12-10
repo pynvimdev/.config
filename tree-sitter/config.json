@@ -1,57 +1,55 @@
 {
-
   "parser-directories": [
-
-    "/home/testing/.config/tree-sitter/tree-sitter-lua"
-
+    "/home/testing/github",
+    "/home/testing/src",
+    "/home/testing/source"
   ],
-
   "theme": {
-    "tag": 18,
-    "function": 26,
-    "string.special": 30,
-    "punctuation.bracket": 239,
-    "punctuation.delimiter": 239,
-    "embedded": null,
     "function.builtin": {
-      "color": 26,
+      "bold": true,
+      "color": 26
+    },
+    "variable.parameter": {
+      "underline": true
+    },
+    "embedded": null,
+    "number": {
+      "color": 94,
       "bold": true
+    },
+    "keyword": 56,
+    "type.builtin": {
+      "color": 23,
+      "bold": true
+    },
+    "string.special": 30,
+    "punctuation.delimiter": 239,
+    "property": 124,
+    "comment": {
+      "italic": true,
+      "color": 245
+    },
+    "variable.builtin": {
+      "bold": true
+    },
+    "constructor": 136,
+    "constant": 94,
+    "operator": {
+      "color": 239,
+      "bold": true
+    },
+    "type": 23,
+    "attribute": {
+      "color": 124,
+      "italic": true
     },
     "constant.builtin": {
       "color": 94,
       "bold": true
     },
-    "constant": 94,
-    "operator": {
-      "bold": true,
-      "color": 239
-    },
     "string": 28,
-    "variable.builtin": {
-      "bold": true
-    },
-    "variable.parameter": {
-      "underline": true
-    },
-    "type": 23,
-    "keyword": 56,
-    "number": {
-      "bold": true,
-      "color": 94
-    },
-    "constructor": 136,
-    "property": 124,
-    "type.builtin": {
-      "bold": true,
-      "color": 23
-    },
-    "comment": {
-      "color": 245,
-      "italic": true
-    },
-    "attribute": {
-      "color": 124,
-      "italic": true
-    }
+    "tag": 18,
+    "function": 26,
+    "punctuation.bracket": 239
   }
 }

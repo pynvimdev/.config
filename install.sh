@@ -4,8 +4,8 @@ sudo apt upgrade
 sudo apt install build-essential fzf clangd stow lldb git htop tmux ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip curl doxygen
 ################################
 # Brew 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew install gcc fish gdb go gopls rust-analyzer wget gdb npm node python
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install gcc bat fd rg the_silver_searcher tig gh fzf exa fish gdb go gopls rust-analyzer wget gdb npm node python
 # Neovim
 mkdir  ~/temp
 cd ~/temp
